@@ -1,0 +1,55 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background-image: url(./pictures/Rain.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: inherit;
+    height: 100%;
+    width: 100%;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    background-color: black;
+    color: white;
+    opacity: 60%;
+}
+
+#randomMessage {
+    height: 10rem;
+    border: .1em solid black;
+    font-size: 2.4em;
+    font-family: 'Shalimar', cursive;
+    margin: 2em;
+    font-weight: bolder;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#getMessageButton {
+    width: 10em;
+    height: 3em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    border-radius: .5em;
+}
+
+#getMessageButton:hover {
+    background-color: white;
+    border-radius: 1em;
+    transition: .5s;
+    cursor: pointer;
+    color: black;
+}
